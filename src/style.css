@@ -1,0 +1,82 @@
+.gallery {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0b0b;
+  }
+
+  .imageHolder {
+    box-shadow: 0px 0px 10px 7px rgba(255, 255, 255, 0.7);
+    max-width: 720px;
+    height: 65vh;
+    width: 50vw;
+  }
+
+  .carousel {
+    height: 60vh;
+    width: 50vw;
+    max-width: 100%;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 720px;
+    background-color: #c57033;
+    height: 8%; 
+  }
+  
+  .btn {
+    width: 25%;
+    background: #e3ac91;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    text-shadow: 2px 2px #b99b9b;
+    box-shadow: inset 0px 0px 10px 1px #905b5b;
+    cursor: pointer;
+  }
+  
+  .caption {
+    font-size: 20px;
+      color: #f7f7f7;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      text-shadow: 2px 2px black;
+  }
+
+  @media(max-width: 1500px) {
+    .imageHolder, .carousel {
+        width: 80vw;
+    }
+  }
+
+  @media(max-width: 990px) {
+    .imageHolder, .carousel {
+        width: 80vw;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .imageHolder{
+        height: 75vh;
+    }
+    .btn {
+        width: 100%;
+        height: 35%;
+    }
+    .navigation {
+        flex-direction: column;
+        height: 20%;
+    }
+    .caption{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+  }
