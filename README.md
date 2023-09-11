@@ -22,12 +22,12 @@ To run the application in development mode: npm start
      - On a smartphone:
        - Swipe left to go to the next image.
        - Swipe right to go to the previous image.
-  ## Full-Screen Mode
-     - To enter full-screen mode:
+  ## Zoom-in and Zoom-out
+     - To Zoom-in:
        - Click on the expand icon located in the top-right corner of the image or click anywhere on the image.
-     - To exit full-screen mode:
-       - Click on contract icon located in the top-right corner of the image or click anywhere on the image while in full- 
-         screen mode to toggle back to the regular view.
+     - To Zoom-out:
+       - Click on contract icon located in the top-right corner of the image or click anywhere on the image while in zoomed- 
+         in mode to toggle back to the regular view.
 
 ## Library used
 react-gallery-carousel
